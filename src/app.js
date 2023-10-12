@@ -18,7 +18,21 @@ window.onload = () => {
         document.getElementById("icon-top").innerHTML=`<span style="color:red">♦</span>`;
         document.getElementById("icon-bottom").innerHTML=`<span style="color:red">♦</span>`;
     }
+    
+    if (randomCards==='K') {
+        document.getElementById("value").innerHTML=`<img src="assets/img/king.jpg" alt=""></img>`;
+              
+    }
 
+    if (randomCards==='Q') {
+        document.getElementById("value").innerHTML=`<img src="assets/img/queen.jpg" alt=""></img>`;
+              
+    }
+
+    if (randomCards==='J') {
+        document.getElementById("value").innerHTML=`<img src="assets/img/jack.jpg" alt=""></img>`;
+              
+    }
    
 };
 
