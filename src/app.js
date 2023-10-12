@@ -11,20 +11,15 @@ window.onload = () => {
 
     if (randomIcons === '♥') {
         document.getElementById("icon-top").innerHTML=`<span style="color:red">♥</span>`;
-    }
-
-    if (randomIcons === '♥') {
         document.getElementById("icon-bottom").innerHTML=`<span style="color:red">♥</span>`;
     }
 
     if (randomIcons === '♦') {
         document.getElementById("icon-top").innerHTML=`<span style="color:red">♦</span>`;
-    }
-
-    if (randomIcons === '♦') {
         document.getElementById("icon-bottom").innerHTML=`<span style="color:red">♦</span>`;
     }
 
+   
 };
 
 
