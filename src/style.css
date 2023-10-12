@@ -1,1 +1,60 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+    background-color: green;
+}
+
+.card {
+    text-align: center;
+    background-color: white;
+    width: 350px;
+    height: 500px;
+    margin: auto;
+    border-radius: 18px;
+    box-shadow: 2px 2px 2px rgba(1, 1, 1, 0.4);
+}
+
+.top {
+    height: 20%;
+    display: flex;
+    justify-content: left;
+    font-size: 100px;
+    margin-left: 20px;
+}
+
+.middle {
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 200px;
+}
+
+.bottom {
+    height: 20%;
+    display: flex;
+    justify-content: right;
+    font-size: 100px;
+    margin-right: 20px;
+    transform: scaleY(-1);
+         -webkit-transform: scaleY(-1);
+         -ms-transform: scaleY(-1);
+         -o-transform: scaleY(-1);
+    
+}
+
+.BtnContainer {
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.dealerBtn {
+    background-color: rgb(255, 111, 0);
+    color: white;
+    padding: 14px 40px;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+#icon {
+    color: black;
+}
