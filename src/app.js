@@ -1,6 +1,7 @@
 let cards = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K'];
 let icons = ['♠', '♣', '♥', '♦' ];
 
+
 function dealer() {
 
     let randomCards = cards[Math.floor(Math.random() * cards.length)];
@@ -14,17 +15,20 @@ function dealer() {
              if (randomIcons === '♥') {
                document.getElementById("icon-top").innerHTML=`<span style="color:red">♥</span>`;
                document.getElementById("icon-bottom").innerHTML=`<span style="color:red">♥</span>`;
-            }
-
-             if (randomIcons === '♦') {
+               document.getElementById("value").style.color = "red";
+             
+            } else if (randomIcons === '♦') {
                document.getElementById("icon-top").innerHTML=`<span style="color:red">♦</span>`;
                document.getElementById("icon-bottom").innerHTML=`<span style="color:red">♦</span>`;
+               document.getElementById("value").style.color = "red";
+            } else {
+              document.getElementById("value").style.color = "black";
             }
     
              if (randomCards==='K') {
                document.getElementById("value").innerHTML=`<img src="assets/img/king.jpg" alt=""></img>`;
               
-            }   
+            }
 
              if (randomCards==='Q') {
                document.getElementById("value").innerHTML=`<img src="assets/img/queen.jpg" alt=""></img>`;
