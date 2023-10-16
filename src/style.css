@@ -2,6 +2,13 @@ body {
     background-color: green;
 }
 
+.title {
+    text-align: center;
+    font-family: sans-serif;
+    color: whitesmoke;
+    margin: 30px;
+}
+
 .card {
     text-align: center;
     background-color: white;
