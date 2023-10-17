@@ -55,3 +55,18 @@ function dealer() {
     ).innerHTML = `<img src="./jack.jpg" alt=""></img>`;
   }
 }
+
+let interval;
+
+// Function to start the timer when the "Start Timer" button is clicked
+document.getElementById("timer-on").addEventListener("click", function() {
+  document.getElementById("timer-on").style.display = "none";
+  document.getElementById("timer-off").style.display = "inline";
+});
+
+// Function to stop the timer when the "Stop Timer" button is clicked
+document.getElementById("timer-off").addEventListener("click", function() {
+  clearInterval(interval);
+  document.getElementById("timer-on").style.display = "inline";
+  document.getElementById("timer-off").style.display = "none";
+});
