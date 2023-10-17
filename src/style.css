@@ -1,76 +1,75 @@
 body {
-    background-color: green;
+  background-color: green;
 }
 
 .title {
-    text-align: center;
-    font-family: sans-serif;
-    color: whitesmoke;
-    margin: 30px;
+  text-align: center;
+  font-family: sans-serif;
+  color: whitesmoke;
+  margin: 30px;
 }
 
 .card {
-    text-align: center;
-    background-color: white;
-    width: 350px;
-    height: 500px;
-    margin: auto;
-    border-radius: 18px;
-    box-shadow: 2px 2px 2px rgba(1, 1, 1, 0.4);
+  text-align: center;
+  background-color: white;
+  width: 350px;
+  height: 500px;
+  margin: auto;
+  border-radius: 18px;
+  box-shadow: 2px 2px 2px rgba(1, 1, 1, 0.4);
 }
 
 .top {
-    height: 20%;
-    display: flex;
-    justify-content: left;
-    font-size: 100px;
-    margin-left: 20px;
+  height: 20%;
+  display: flex;
+  justify-content: left;
+  font-size: 100px;
+  margin-left: 20px;
 }
 
 .middle {
-    height: 60%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 200px;
-    color: black;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 200px;
+  color: black;
 }
 
 .bottom {
-    height: 20%;
-    display: flex;
-    justify-content: right;
-    font-size: 100px;
-    margin-right: 20px;
-    transform: scaleY(-1);
-         -webkit-transform: scaleY(-1);
-         -ms-transform: scaleY(-1);
-         -o-transform: scaleY(-1);
-    
+  height: 20%;
+  display: flex;
+  justify-content: right;
+  font-size: 100px;
+  margin-right: 20px;
+  transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  -ms-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
 }
 
 .BtnContainer {
-    text-align: center;
-    margin: auto;
-    margin-top: 20px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
 }
 
 .dealerBtn {
-    background-color: rgb(255, 111, 0);
-    color: white;
-    padding: 14px 40px;
-    font-size: large;
-    font-family: sans-serif;
+  background-color: rgb(255, 111, 0);
+  color: white;
+  padding: 14px 40px;
+  font-size: large;
+  font-family: sans-serif;
 }
 
 #icon {
-    color: black;
+  color: black;
 }
 
 #value {
-    color: black;
+  color: black;
 }
 
 img {
-    width: 170px;
+  width: 170px;
 }
