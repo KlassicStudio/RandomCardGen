@@ -60,6 +60,7 @@ let interval;
 
 // Function to start the timer when the "Start Timer" button is clicked
 document.getElementById("timer-on").addEventListener("click", function() {
+  interval = setInterval(dealer, 5000);
   document.getElementById("timer-on").style.display = "none";
   document.getElementById("timer-off").style.display = "inline";
 });
