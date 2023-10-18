@@ -89,3 +89,23 @@ document.getElementById("resize").addEventListener("click", function() {
   targetDiv.style.width = newWidth + "px";
   targetDiv.style.height = newHeight + "px";
 });
+
+// Function to hide Resize Button when clicked
+document.getElementById("resize").addEventListener("click", function() {
+  document.getElementById("resize").style.display = "none";
+  document.getElementById("resetSize").style.display = "inline";
+});
+
+const cardDiv = document.querySelector(".card");
+
+// Function to reset Card to default size
+document.getElementById("resetSize").addEventListener("click", function() {
+  cardDiv.style.width = "350px";
+  cardDiv.style.height = "500px";
+  let defaultWidth = document.getElementById("cardWidth");
+  defaultWidth.value = 350;
+  let defaultHeight = document.getElementById("cardHeight");
+  defaultHeight.value = 500;
+  document.getElementById("resetSize").style.display = "none";
+  document.getElementById("resize").style.display = "inline";
+});
