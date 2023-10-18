@@ -1,5 +1,5 @@
 body {
-  background-color: green;
+  background-color: #53ae51;
 }
 
 .title {
@@ -55,11 +55,12 @@ body {
 }
 
 .dealerBtn {
-  background-color: rgb(255, 111, 0);
+  background-color: #534ab5;
   color: white;
   padding: 14px 40px;
   font-size: large;
   font-family: sans-serif;
+  width: 350px;
 }
 
 .stopTmr {
@@ -68,6 +69,7 @@ body {
   padding: 14px 40px;
   font-size: large;
   font-family: sans-serif;
+  width: 350px;
 }
 
 #icon {
@@ -80,4 +82,41 @@ body {
 
 img {
   width: 170px;
+}
+
+.inputs {
+  text-align: center;
+  padding: 20px;
+}
+
+#cardWidth {
+  width: 50px;
+  background-color: #b54aac;
+  color: white;
+  padding: 10px 10px;
+  font-size: large;
+  font-family: sans-serif;
+}
+
+#cardHeight {
+  width: 50px;
+  background-color: #b54aac;
+  color: white;
+  padding: 10px 10px;
+  font-size: large;
+  font-family: sans-serif;
+}
+
+#resize {
+  width: 190px;
+  background-color: #b54aac;
+  color: white;
+  padding: 10px 10px;
+  font-size: large;
+  font-family: sans-serif;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  opacity: 1;
 }

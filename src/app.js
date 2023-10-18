@@ -71,3 +71,21 @@ document.getElementById("timer-off").addEventListener("click", function() {
   document.getElementById("timer-on").style.display = "inline";
   document.getElementById("timer-off").style.display = "none";
 });
+
+// resize card function
+document.getElementById("resize").addEventListener("click", function() {
+  // Get the input elements
+  const widthInput = document.getElementById("cardWidth");
+  const heightInput = document.getElementById("cardHeight");
+
+  // Get the target div element
+  const targetDiv = document.querySelector(".card");
+
+  // Get the width and height value from the input fields
+  const newWidth = widthInput.value;
+  const newHeight = heightInput.value;
+
+  // Update the width & length of the div with the new values
+  targetDiv.style.width = newWidth + "px";
+  targetDiv.style.height = newHeight + "px";
+});
